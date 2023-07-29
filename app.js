@@ -86,3 +86,20 @@ function CalculateDate() {
     alert("error");
   }
 }
+
+
+
+
+function resetForm() {
+  yearInput.value = "";
+  monthInput.value = "";
+  dayInput.value = "";
+  yearError.textContent = "";
+  monthError.textContent = "";
+  dayError.textContent = "";
+  yearOutput.textContent = "--";
+  monthOutput.textContent = "--";
+  dayOutput.textContent = "--";
+}
+
+
