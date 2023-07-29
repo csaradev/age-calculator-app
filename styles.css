@@ -66,6 +66,31 @@ small {
     right: 450px;
 }
 
+.reset-btn {
+    height: 50px;
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    background-color: hsl(0, 0%, 94%);
+    color: hsl(259, 100%, 65%);
+    align-items: center;
+    justify-content: center;
+    border: 2px solid hsl(0, 0%, 94%);
+    border-radius: 7px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    top: 290px;
+    right: 450px;
+}
+
+.reset-btn:hover {
+    background-color: hsl(259, 100%, 65%);
+    color: white;
+}
+
 .submit-btn:hover {
     background-color: black;
     cursor: pointer;
@@ -107,6 +132,14 @@ small {
 
     .submit-btn img {
         transform: scale(0.5);
+    }
+
+    .reset-btn {
+        top: 290px;
+        right: 50px;
+        font-size: 14px;
+        height: 30px;
+            width: 80px;
     }
 
     .input-container {
